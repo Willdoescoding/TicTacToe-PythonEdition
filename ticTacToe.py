@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
-
-#Variables for X and Os, square numbers, EMPTY slot, and Tie
+# X always go first, then O next. Player will be asked to choose to go first or the computer goes first.
+# Variables for X and Os, square numbers, EMPTY slot, and Tie
 X = "X"
 O = "O"
 EMPTY = " "
@@ -144,7 +144,7 @@ def congrats_winner(the_winner, computer, human):
     else:
         print("Well Done")
 
-# main
+# main 
 def main():
     display_instruct()
     computer, human = pieces()
